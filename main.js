@@ -1,4 +1,4 @@
-console.log("Hello World");
+// console.log("Hello World");
 
 // connect to Moralis server
 Moralis.initialize("hIBoObjrnV5fE6yFlXCX1rx201iwXlLjwywCOkv2");
@@ -112,7 +112,7 @@ getBalances = async () => {
 getNFTs = async () => {
     // console.log("get nfts clicked");
     let nfts = await Moralis.Web3API.account.getNFTs({chain: 'ropsten'});
-    console.log(nfts);
+    // console.log(nfts);
     let tableOfNFTs = document.querySelector('#tableOfNFTs');
     if(nfts.result.length > 0){
         nfts.result.forEach(n => {
