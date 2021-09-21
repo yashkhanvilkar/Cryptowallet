@@ -4,7 +4,7 @@ console.log("Hello World");
 Moralis.initialize("hIBoObjrnV5fE6yFlXCX1rx201iwXlLjwywCOkv2");
 Moralis.serverURL = "https://cxx2mv1jvjt6.grandmoralis.com:2053/server";
 
-let homepage = "http://127.0.0.1:5500/index.html";
+let homepage = "https://yashkhanvilkar.github.io/Cryptowallet/index.html";
 
 if (Moralis.User.current() == null && window.location.href != homepage) {
     document.querySelector('body').style.display = 'none';
