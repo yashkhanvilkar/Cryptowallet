@@ -130,8 +130,7 @@ getNFTs = async () => {
         })
     }
     else{
-        let content = `<h5>You do not have any NFTs to display</h5>`;
-        tableOfNFTs.innerHTML += content;
+        alert("You do not have any NFTs");
     }
 }
 
